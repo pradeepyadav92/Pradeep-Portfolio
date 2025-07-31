@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Pradeep Yadav</div>
+            <div class="hamburger" onclick="toggleNav()">☰</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm Pradeep Kumar Yadav</h1>
+            <div class="subtitle">Frontend Developer & Aspiring Engineer</div>
+            <p>I'm a passionate Frontend Developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks. I love crafting visually appealing, fully responsive, and user-friendly web interfaces. With experience in Java, Python, and SQL, I also bring backend awareness to frontend development—enabling me to build more efficient and scalable solutions.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                <a href="assets/new cv.pdf" download="Pradeep-Yadav-Resume.pdf" class="btn btn-secondary">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image"><img src="assets/photo.jpg" alt="👨‍💻"></div>
+            <div class="about-text">
+                <h3>Engineering Student & Frontend Developer</h3>
+                <p>I'm a B.Tech Computer Science Engineering student at R R Institute Of Modern Technology (AKTU) with a strong academic record (83.2%). I have hands-on experience with Java, Python, C, and web technologies, constantly working on projects that solve real-world problems.</p>
+                <p>Beyond academics, I enjoy coding challenges on platforms like LeetCode and GFG, watching movies. I believe in continuous learning and am always excited to explore new technologies and contribute to innovative projects.</p>
+                <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="fade-in">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Web Development</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Database & Others</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Team Collaboration</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="fade-in">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+              <div class="project-image">💼</div>
+              <div class="project-content">
+                  <h3>Personal Portfolio Website</h3>
+                  <p>A modern, responsive portfolio website showcasing my projects and skills. Built with HTML5, CSS3, and JavaScript featuring smooth animations, dark theme, and mobile-first design.</p>
+                  <div class="project-links">
+                      <a href="#home">Live Demo</a>
+                      <a href="https://github.com/pradeepyadav92" target="_blank">GitHub Profile</a>
+                  </div>
+              </div>
+          </div>
+            <div class="project-card">
+                <div class="project-image">🔐</div>
+                <div class="project-content">
+                    <h3>Cryptora - Password Manager</h3>
+                    <p>A command-line password manager built with Python featuring secure storage and retrieval functionalities. Uses JSON for data storage with robust exception handling for reliability.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/pradeepyadav92/Cryptora.git" target="_blank">GitHub</a>
+                        <a href="#" onclick="alert('CLI application - clone and run locally')">Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">🧮</div>
+                <div class="project-content">
+                    <h3>Scientific Calculator</h3>
+                    <p>A comprehensive scientific calculator application developed with Python. Features basic arithmetic operations, base conversion, BMI calculation, and an intuitive user-friendly interface.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/pradeepyadav92/Scientific-Calculator.git" target="_blank">GitHub</a>
+                        <a href="#" onclick="alert('Python application - clone and run locally')">Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section id="resume" class="fade-in">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-content">
+            <div class="resume-preview">
+                <div class="resume-card">
+                    <div class="resume-icon">📄</div>
+                    <h3>Download My Resume</h3>
+                    <p>Get a detailed overview of my education, skills, projects, and experience. My resume includes information about my academic achievements, technical skills, and project work.</p>
+                    <div class="resume-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Education:</span>
+                            <span class="detail-value">B.Tech CSE (83.2%)</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Experience:</span>
+                            <span class="detail-value">Fresher with Projects</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Skills:</span>
+                            <span class="detail-value">Java, Python, Web Development</span>
+                        </div>
+                    </div>
+                    <div class="resume-buttons">
+                        <a href="assets/new cv.pdf" download="Pradeep-Yadav-Resume.pdf" class="btn btn-primary" onclick="downloadResume()">Download PDF</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <p>I'm always interested in new opportunities and exciting projects. Let's discuss how we can work together!</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="form-message"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="mailto:pradeepyadav7326@gmai.com" title="Email"><img width="48" height="48" src="https://img.icons8.com/color/48/circled-envelope.png" alt="circled-envelope"/></a>
+            <a href="https://linkedin.com/in/pradeep-yaduvanshi" target="_blank" title="LinkedIn"><img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin-circled.png" alt="linkedin-circled"/></a>
+            <a href="https://github.com/pradeepyadav92" target="_blank" title="GitHub"><img width="48" height="48" src="https://img.icons8.com/color-glass/48/github--v1.png" alt="github--v1"/></a>
+            <a href="https://leetcode.com/u/Pradeepyaduvanshi/" target="_blank" title="LeetCode"><img width="24" height="24" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png" alt="external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo"/></a>
+        </div>
+        <p>&copy; 2025 Pradeep Kumar Yadav. All rights reserved.</p>
+    </footer>
+     <script src="script.js"></script>
+</body>
+</html>
